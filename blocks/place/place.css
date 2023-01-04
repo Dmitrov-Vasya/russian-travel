@@ -1,10 +1,8 @@
 .place {
   padding-bottom: 80px;
   max-width: 984px;
-  padding-left: 148px;
-  padding-right: 148px;
   display: grid;
-  grid-template-columns: 460px 456px;
+  grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
   grid-template-areas:
     "place__title place__website"
     "place__image place__text";
@@ -13,9 +11,7 @@
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
-    grid-template-columns: 440px 456px;
-    padding-left: 48px;
-    padding-right: 48px;
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     gap: 48px 32px;
     padding-bottom: 80px;
   }
@@ -23,9 +19,7 @@
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
-    grid-template-columns: 340px 352px;
-    padding-left: 24px;
-    padding-right: 24px;
+    grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
     gap: 48px 28px;
     padding-bottom: 72px;
   }
@@ -33,9 +27,7 @@
 @media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
-    grid-template-columns: 288px;
-    padding-left: 0px;
-    padding-right: 0px;
+    grid-template-columns: minmax(288px 320px);
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
