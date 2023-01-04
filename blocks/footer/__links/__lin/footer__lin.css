@@ -1,0 +1,17 @@
+.footer__lin {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  transition: opacity 1s linear 0.5s;
+  text-decoration-line: none;
+}
+.footer__lin:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 320px) {
+  .footer__lin {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
