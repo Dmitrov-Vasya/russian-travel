@@ -11,9 +11,7 @@
   background-position: center;
   transition: opacity 0.8s linear 0.5s;
 }
-.cover:hover {
-  opacity: 0.8;
-}
+
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 1024px;
