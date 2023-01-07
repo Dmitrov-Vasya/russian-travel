@@ -17,14 +17,12 @@
   .lead {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 48px;
     max-width: 768px;
     margin: 0;
   }
 }
 @media screen and (max-width: 320px) {
   .lead {
-    padding-top: 48px;
     max-width: 320px;
   }
 }

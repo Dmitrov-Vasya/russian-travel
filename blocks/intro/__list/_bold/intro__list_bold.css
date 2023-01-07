@@ -1,8 +1,8 @@
-.intro__list {
+.intro__list_bold {
   max-width: 690px;
   padding: 0;
   padding-top: 33px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
@@ -11,12 +11,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .intro__list {
+  .intro__list_bold {
     max-width: 720px;
   }
 }
 @media screen and (max-width: 320px) {
-  .intro__list {
+  .intro__list_bold {
     max-width: 288px;
     padding-top: 34px;
   }
