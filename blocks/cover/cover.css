@@ -1,7 +1,7 @@
 .cover {
   margin: 0;
-  max-width: 100;
-  min-height: 740px;
+  max-width: 1184px;
+  max-height: 740px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(../../images/sprint-3-images/cover-trains.jpg);
@@ -9,25 +9,10 @@
   display: flex;
   flex-direction: column;
   background-position: center;
-  transition: opacity 0.8s linear 0.5s;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover {
-    max-width: 1024px;
-    min-height: 640px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover {
-    max-width: 768px;
-    min-height: 480px;
-  }
-}
 @media screen and (max-width: 320px) {
   .cover {
     margin-top: 16px;
-    max-width: 320px;
-    min-height: 200px;
   }
 }
