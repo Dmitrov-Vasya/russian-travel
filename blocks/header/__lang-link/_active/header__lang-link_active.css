@@ -1,12 +1,10 @@
 .header__lang-link_active {
-  position: relative;
   max-width: 30px;
-  justify-content: flex-end;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: none;
+  text-decoration-line: underline;
   color: #ffffff;
   transition: opacity 1s linear 0.5s;
 }

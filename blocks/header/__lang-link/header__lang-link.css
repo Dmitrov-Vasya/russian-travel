@@ -6,7 +6,7 @@
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: underline;
+  text-decoration-line: none;
   color: #ffffff;
   transition: opacity 1s linear 0.5s;
 }

@@ -6,7 +6,7 @@
   line-height: 22px;
   color: #ffffff;
   transition: opacity 1s linear 0.5s;
-  text-decoration-line: none;
+  text-decoration-line: underline;
   justify-content: space-around;
 }
 .place__link:hover {

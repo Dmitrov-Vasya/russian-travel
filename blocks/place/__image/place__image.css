@@ -3,7 +3,7 @@
   max-height: 100%;
   grid-area: place__image;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 555px) {
   .place__image {
     padding-bottom: 32px;
   }
