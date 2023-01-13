@@ -7,7 +7,6 @@
 1. Иcпользовал Grid
 2. Научился адаптивной верстке
 3. Научился верстать сайт по макету из Figma.
-
-- [Ссылка на сайт](https://github.com/Dmitrov-Vasya/russian-travel.git)
+https://github.com/Dmitrov-Vasya/russian-travel.git
 
 Спасибо за то, что посмотрели мой проект.
