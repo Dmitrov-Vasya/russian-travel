@@ -1,5 +1,6 @@
 .place {
   padding-bottom: 80px;
+  margin: 0 auto;
   max-width: 984px;
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 456px);
