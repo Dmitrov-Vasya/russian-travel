@@ -8,6 +8,7 @@
   transition: opacity 1s linear 0.5s;
   text-decoration-line: underline;
   justify-content: space-around;
+  display: block;
 }
 .place__link:hover {
   opacity: 0.8;

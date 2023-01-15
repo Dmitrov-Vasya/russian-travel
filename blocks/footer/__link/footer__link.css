@@ -2,10 +2,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  padding-right: 16px;
+  padding-right: 18px;
   color: #ffffff;
   transition: opacity 1s linear 0.5s;
   text-decoration-line: none;
+  display: block;
 }
 .footer__link:hover {
   opacity: 0.8;
