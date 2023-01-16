@@ -24,21 +24,14 @@
     padding-top: 88px;
   }
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 650px) {
   .footer {
-    /*     max-width: 720px; */
-    flex-direction: column;
-    /*     margin: 0; */
-    padding-top: 64px;
-  }
-}
-@media screen and (max-width: 549px) {
-  .footer {
-    flex-direction: column;
     margin: 0;
-    padding-top: 64px;
     padding-left: 16px;
     padding-right: 0;
+    flex-direction: column;
+    padding-top: 64px;
   }
 }
 /* @media screen and (max-width: 320px) {

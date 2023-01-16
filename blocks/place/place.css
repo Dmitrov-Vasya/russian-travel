@@ -14,14 +14,12 @@
     /* max-width: 1024px; */
     grid-template-columns: minmax(340px, 440px) minmax(352px, 352px);
     gap: 48px 32px;
-    padding-bottom: 80px;
   }
 }
 @media screen and (max-width: 1024px) {
   .place {
     /* max-width: 1024px; */
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-    gap: 48px 32px;
   }
 }
 @media screen and (max-width: 768px) {
