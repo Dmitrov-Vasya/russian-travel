@@ -1,6 +1,6 @@
 .cover {
   margin: 0;
-  max-width: 100%;
+  max-width: 1184px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   background-position: center;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {
