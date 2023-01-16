@@ -7,6 +7,6 @@
 1. Иcпользовал новый подход к формированию контейнеров - Grid.
 2. Научился адаптивной верстке
 3. Научился верстать сайт по макету из Figma.
-   https://github.com/Dmitrov-Vasya/russian-travel.git
+   https://dmitrov-vasya.github.io/russian-travel/
 
 Спасибо за то, что посмотрели мой проект.
