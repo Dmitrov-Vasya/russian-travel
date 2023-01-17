@@ -9,17 +9,12 @@
     "place__image place__text";
   gap: 48px 40px;
 }
-@media screen and (max-width: 1221px) {
-  .place {
-    /* max-width: 1024px; */
-    grid-template-columns: minmax(340px, 440px) minmax(352px, 352px);
-    gap: 48px 32px;
-  }
-}
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1023px) {
   .place {
     /* max-width: 1024px; */
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+    gap: 48px 32px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -30,7 +25,7 @@
     padding-bottom: 72px;
   }
 }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 580px) {
   .place {
     /* max-width: 320px; */
     gap: 0;
